@@ -1,4 +1,5 @@
 # faceHandTrainer
 requires dlib ver.19.19 http://dlib.net/ or Christopher Baker's ofxDlib addon for openframeworks https://github.com/bakercp/ofxDlib
 
-train dlib fhog detector for face or hand detection. produces .svm file for loading custom detector/tracker based on hands dataset, run in release mode to avoid serious lag
+from dlib http://dlib.net/fhog_object_detector_ex.cpp.html 
+train dlib fhog detectors. produce .svm file for loading a custom detector/tracker, run in release mode.
