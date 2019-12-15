@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+  <image file='hand11.png'>
+    <box top='69' left='718' width='217' height='215'/>
+  </image>
+  <image file='hand12.png'>
+    <box top='76' left='227' width='203' height='198'/>
+  </image>
+  <image file='hand13.png'>
+    <box top='199' left='122' width='207' height='202'/>
+  </image>
+  <image file='hand14.png'>
+    <box top='97' left='721' width='224' height='217'/>
+  </image>
+  <image file='hand15.png'>
+    <box top='138' left='241' width='199' height='197'/>
+  </image>
+</images>
+</dataset>
