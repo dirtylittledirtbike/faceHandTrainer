@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+    <image file='right4.png'>
+        <box top='221' left='195' width='281' height='271'>
+            <part name='0' x='453' y='379'/>
+            <part name='1' x='403' y='266'/>
+            <part name='2' x='352' y='245'/>
+            <part name='3' x='307' y='261'/>
+            <part name='4' x='254' y='296'/>
+        </box>
+    </image>
+    <image file='right5.png'>
+        <box top='185' left='388' width='215' height='200'>
+            <part name='0' x='571' y='316'/>
+            <part name='1' x='529' y='223'/>
+            <part name='2' x='487' y='205'/>
+            <part name='3' x='454' y='214'/>
+            <part name='4' x='419' y='246'/>
+        </box>
+    </image>
+    <image file='right6.png'>
+        <box top='152' left='302' width='228' height='221'>
+            <part name='0' x='498' y='264'/>
+            <part name='1' x='466' y='182'/>
+            <part name='2' x='423' y='164'/>
+            <part name='3' x='388' y='177'/>
+            <part name='4' x='353' y='209'/>
+        </box>
+    </image>
+    <image file='right7.png'>
+        <box top='184' left='182' width='251' height='228'>
+            <part name='0' x='411' y='327'/>
+            <part name='1' x='354' y='218'/>
+            <part name='2' x='305' y='204'/>
+            <part name='3' x='269' y='218'/>
+            <part name='4' x='223' y='251'/>
+        </box>
+    </image>
+    <image file='right8.png'>
+        <box top='168' left='196' width='259' height='238'>
+            <part name='0' x='424' y='316'/>
+            <part name='1' x='373' y='209'/>
+            <part name='2' x='327' y='187'/>
+            <part name='3' x='294' y='199'/>
+            <part name='4' x='241' y='230'/>
+        </box>
+    </image>
+    <image file='right9.png'>
+        <box top='240' left='193' width='200' height='187'>
+            <part name='0' x='372' y='359'/>
+            <part name='1' x='323' y='271'/>
+            <part name='2' x='279' y='256'/>
+            <part name='3' x='252' y='268'/>
+            <part name='4' x='213' y='298'/>
+        </box>
+    </image>
+</images>
+</dataset>

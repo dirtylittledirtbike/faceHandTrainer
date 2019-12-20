@@ -55,7 +55,7 @@ int main(int argc, char** argv)
         // path to this faces folder as a command line argument so we will know
         // where it is.
         
-        const std::string faces_directory = ofToDataPath("hands3", true);
+        const std::string faces_directory = ofToDataPath("faces", true);
         // The faces directory contains a training dataset and a separate
         // testing dataset.  The training data consists of 4 images, each
         // annotated with rectangles that bound each human face.  The idea is
@@ -83,9 +83,17 @@ int main(int argc, char** argv)
         // dlib comes with tools for creating and loading XML image dataset
         // files.  Here you see how to load the data.  To create the XML files
         // you can use the imglab tool which can be found in the tools/imglab
-        // folder.  It is a simple graphical tool for labeling objects in images
-        // with boxes.  To see how to use it read the tools/imglab/README.txt
+        // folder. It is a simple graphical tool for labeling objects in images
+        // with boxes. To see how to use it read the tools/imglab/README.txt
         // file.
+        
+        //------note--------
+        //If you're using ofxDlib it can be found in
+        //openFrameworks_folder_location/scripts/apothecary/apothecary/build/dlib/tools
+        //also if you're using mac and want to compile imglab in terminal you'll need XQuartz
+        //make sure you use PNG images
+        //------------------
+        
         load_image_dataset(images_train, face_boxes_train, faces_directory+"/training.xml");
         load_image_dataset(images_test, face_boxes_test, faces_directory+"/testing.xml");
         
@@ -105,6 +113,7 @@ int main(int argc, char** argv)
         // training dataset.  Again, this is obviously optional but is useful in
         // many object detection tasks.
         add_image_left_right_flips(images_train, face_boxes_train);
+        //if you want to add slight rotations the training images uncomment this (good for faces)
         //add_image_rotations(linspace(-20,20,3)*dlib::pi/90.0, images_train, face_boxes_train);
         cout << "num training images: " << images_train.size() << endl;
         cout << "num testing images:  " << images_test.size() << endl;
@@ -121,7 +130,7 @@ int main(int argc, char** argv)
         typedef scan_fhog_pyramid<pyramid_down<6> > image_scanner_type;
         image_scanner_type scanner;
         // The sliding window detector will be 80 pixels wide and 80 pixels tall.
-        scanner.set_detection_window_size(120, 120);
+        scanner.set_detection_window_size(80, 80);
         structural_object_detection_trainer<image_scanner_type> trainer(scanner);
         // Set this to the number of processing cores on your machine.
         trainer.set_num_threads(4);
@@ -154,36 +163,13 @@ int main(int argc, char** argv)
         // that the object detector works perfectly on the testing images.
         cout << "testing results:  " << test_object_detection_function(detector, images_test, face_boxes_test) << endl;
         
-        
-        // If you have read any papers that use HOG you have probably seen the nice looking
-        // "sticks" visualization of a learned HOG detector.  This next line creates a
-        // window with such a visualization of our detector.  It should look somewhat like
-        // a face.
-        //image_window hogwin(draw_fhog(detector), "Learned fHOG detector");
-        
-        // Now for the really fun part.  Let's display the testing images on the screen and
-        // show the output of the face detector overlaid on each image.  You will see that
-        // it finds all the faces without false alarming on any non-faces.
-        //dlib::image_window win;
-        //        for (unsigned long i = 0; i < images_test.size(); ++i)
-        //        {
-        //            // Run the detector and get the face detections.
-        //            std::vector<rectangle> dets = detector(images_test[i]);
-        //            win.clear_overlay();
-        //            win.set_image(images_test[i]);
-        //            win.add_overlay(dets, rgb_pixel(255,0,0));
-        //            cout << "Hit enter to process the next image..." << endl;
-        //            cin.get();
-        //        }
-        
-        
         // Like everything in dlib, you can save your detector to disk using the
         // serialize() function.
-        serialize(ofToDataPath("hand_detector.svm", true)) << detector;
+        serialize(ofToDataPath("face_detector.svm", true)) << detector;
         
         // Then you can recall it using the deserialize() function.
         object_detector<image_scanner_type> detector2;
-        deserialize(ofToDataPath("hand_detector.svm", true)) >> detector2;
+        deserialize(ofToDataPath("face_detector.svm", true)) >> detector2;
         
         
         //
@@ -263,3 +249,7 @@ int main(int argc, char** argv)
         cout << e.what() << endl;
     }
 }
+
+// ----------------------------------------------------------------------------------------
+
+

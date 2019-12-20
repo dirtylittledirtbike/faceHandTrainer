@@ -1,0 +1,548 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+    <image file='handy2.png'>
+        <box top='142' left='715' width='263' height='244'>
+            <part name='0' x='743' y='305'/>
+            <part name='1' x='807' y='193'/>
+            <part name='2' x='864' y='172'/>
+            <part name='3' x='904' y='184'/>
+            <part name='4' x='959' y='230'/>
+        </box>
+    </image>
+    <image file='handy3.png'>
+        <box top='165' left='565' width='220' height='208'>
+            <part name='0' x='598' y='298'/>
+            <part name='1' x='600' y='204'/>
+            <part name='2' x='628' y='177'/>
+            <part name='3' x='657' y='181'/>
+            <part name='4' x='703' y='205'/>
+        </box>
+    </image>
+    <image file='handy4.png'>
+        <box top='75' left='711' width='245' height='230'>
+            <part name='0' x='740' y='222'/>
+            <part name='1' x='780' y='116'/>
+            <part name='2' x='824' y='95'/>
+            <part name='3' x='858' y='103'/>
+            <part name='4' x='903' y='144'/>
+        </box>
+    </image>
+    <image file='handy5.png'>
+        <box top='106' left='631' width='247' height='228'>
+            <part name='0' x='657' y='247'/>
+            <part name='1' x='712' y='142'/>
+            <part name='2' x='755' y='126'/>
+            <part name='3' x='794' y='141'/>
+            <part name='4' x='831' y='184'/>
+        </box>
+    </image>
+    <image file='handy6.png'>
+        <box top='261' left='608' width='200' height='189'>
+            <part name='0' x='629' y='380'/>
+            <part name='1' x='664' y='291'/>
+            <part name='2' x='702' y='273'/>
+            <part name='3' x='739' y='282'/>
+            <part name='4' x='775' y='317'/>
+        </box>
+    </image>
+    <image file='handyy1.png'>
+        <box top='45' left='687' width='262' height='242'>
+            <part name='0' x='714' y='203'/>
+            <part name='1' x='787' y='83'/>
+            <part name='2' x='842' y='68'/>
+            <part name='3' x='885' y='86'/>
+            <part name='4' x='920' y='130'/>
+        </box>
+    </image>
+    <image file='handyy5.png'>
+        <box top='175' left='719' width='272' height='260'>
+            <part name='0' x='744' y='333'/>
+            <part name='1' x='807' y='217'/>
+            <part name='2' x='863' y='192'/>
+            <part name='3' x='911' y='206'/>
+            <part name='4' x='958' y='248'/>
+        </box>
+    </image>
+    <image file='left1.png'>
+        <box top='183' left='657' width='245' height='224'>
+            <part name='0' x='688' y='334'/>
+            <part name='1' x='736' y='220'/>
+            <part name='2' x='773' y='198'/>
+            <part name='3' x='822' y='208'/>
+            <part name='4' x='858' y='246'/>
+        </box>
+    </image>
+    <image file='left10.png'>
+        <box top='148' left='518' width='229' height='206'>
+            <part name='0' x='544' y='275'/>
+            <part name='1' x='600' y='173'/>
+            <part name='2' x='639' y='162'/>
+            <part name='3' x='674' y='178'/>
+            <part name='4' x='716' y='223'/>
+        </box>
+    </image>
+    <image file='left11.png'>
+        <box top='99' left='646' width='219' height='210'>
+            <part name='0' x='671' y='259'/>
+            <part name='1' x='687' y='145'/>
+            <part name='2' x='724' y='114'/>
+            <part name='3' x='761' y='114'/>
+            <part name='4' x='810' y='137'/>
+        </box>
+    </image>
+    <image file='left12.png'>
+        <box top='233' left='717' width='254' height='237'>
+            <part name='0' x='743' y='367'/>
+            <part name='1' x='796' y='270'/>
+            <part name='2' x='845' y='250'/>
+            <part name='3' x='888' y='261'/>
+            <part name='4' x='936' y='299'/>
+        </box>
+    </image>
+    <image file='left2.png'>
+        <box top='183' left='597' width='225' height='224'>
+            <part name='0' x='623' y='340'/>
+            <part name='1' x='635' y='232'/>
+            <part name='2' x='669' y='200'/>
+            <part name='3' x='708' y='201'/>
+            <part name='4' x='756' y='222'/>
+        </box>
+    </image>
+    <image file='left3.png'>
+        <box top='227' left='737' width='238' height='225'>
+            <part name='0' x='760' y='372'/>
+            <part name='1' x='822' y='268'/>
+            <part name='2' x='862' y='245'/>
+            <part name='3' x='899' y='255'/>
+            <part name='4' x='950' y='295'/>
+        </box>
+    </image>
+    <image file='left4.png'>
+        <box top='78' left='810' width='263' height='244'>
+            <part name='0' x='825' y='237'/>
+            <part name='1' x='895' y='122'/>
+            <part name='2' x='948' y='105'/>
+            <part name='3' x='992' y='118'/>
+            <part name='4' x='1034' y='156'/>
+        </box>
+    </image>
+    <image file='left5.png'>
+        <box top='118' left='616' width='244' height='222'>
+            <part name='0' x='640' y='268'/>
+            <part name='1' x='695' y='150'/>
+            <part name='2' x='740' y='135'/>
+            <part name='3' x='780' y='144'/>
+            <part name='4' x='825' y='177'/>
+        </box>
+    </image>
+    <image file='left6.png'>
+        <box top='114' left='606' width='236' height='227'>
+            <part name='0' x='633' y='273'/>
+            <part name='1' x='674' y='155'/>
+            <part name='2' x='720' y='131'/>
+            <part name='3' x='760' y='136'/>
+            <part name='4' x='805' y='170'/>
+        </box>
+    </image>
+    <image file='left7.png'>
+        <box top='89' left='493' width='193' height='186'>
+            <part name='0' x='518' y='218'/>
+            <part name='1' x='547' y='124'/>
+            <part name='2' x='583' y='100'/>
+            <part name='3' x='615' y='104'/>
+            <part name='4' x='651' y='135'/>
+        </box>
+    </image>
+    <image file='left8.png'>
+        <box top='217' left='655' width='239' height='213'>
+            <part name='0' x='679' y='346'/>
+            <part name='1' x='734' y='250'/>
+            <part name='2' x='777' y='239'/>
+            <part name='3' x='815' y='250'/>
+            <part name='4' x='854' y='283'/>
+        </box>
+    </image>
+    <image file='left9.png'>
+        <box top='148' left='634' width='180' height='170'>
+            <part name='0' x='657' y='259'/>
+            <part name='1' x='688' y='179'/>
+            <part name='2' x='723' y='164'/>
+            <part name='3' x='753' y='173'/>
+            <part name='4' x='781' y='201'/>
+        </box>
+    </image>
+    <image file='leftt1.png'>
+        <box top='119' left='662' width='211' height='199'>
+            <part name='0' x='687' y='227'/>
+            <part name='1' x='719' y='151'/>
+            <part name='2' x='752' y='136'/>
+            <part name='3' x='782' y='142'/>
+            <part name='4' x='813' y='168'/>
+        </box>
+    </image>
+    <image file='leftt10.png'>
+        <box top='212' left='524' width='284' height='262'>
+            <part name='0' x='554' y='362'/>
+            <part name='1' x='616' y='250'/>
+            <part name='2' x='673' y='235'/>
+            <part name='3' x='713' y='249'/>
+            <part name='4' x='762' y='293'/>
+        </box>
+    </image>
+    <image file='leftt11.png'>
+        <box top='209' left='566' width='257' height='233'>
+            <part name='0' x='597' y='348'/>
+            <part name='1' x='653' y='248'/>
+            <part name='2' x='702' y='234'/>
+            <part name='3' x='738' y='243'/>
+            <part name='4' x='781' y='280'/>
+        </box>
+    </image>
+    <image file='leftt12.png'>
+        <box top='131' left='687' width='206' height='181'>
+            <part name='0' x='711' y='236'/>
+            <part name='1' x='765' y='157'/>
+            <part name='2' x='807' y='146'/>
+            <part name='3' x='835' y='160'/>
+            <part name='4' x='864' y='190'/>
+        </box>
+    </image>
+    <image file='leftt13.png'>
+        <box top='45' left='596' width='339' height='313'>
+            <part name='0' x='619' y='204'/>
+            <part name='1' x='703' y='77'/>
+            <part name='2' x='773' y='60'/>
+            <part name='3' x='819' y='84'/>
+            <part name='4' x='875' y='138'/>
+        </box>
+    </image>
+    <image file='leftt14.png'>
+        <box top='176' left='797' width='211' height='194'>
+            <part name='0' x='824' y='291'/>
+            <part name='1' x='878' y='217'/>
+            <part name='2' x='919' y='205'/>
+            <part name='3' x='946' y='215'/>
+            <part name='4' x='975' y='243'/>
+        </box>
+    </image>
+    <image file='leftt15.png'>
+        <box top='209' left='764' width='221' height='203'>
+            <part name='0' x='787' y='352'/>
+            <part name='1' x='824' y='251'/>
+            <part name='2' x='866' y='235'/>
+            <part name='3' x='895' y='238'/>
+            <part name='4' x='940' y='261'/>
+        </box>
+    </image>
+    <image file='leftt16.png'>
+        <box top='154' left='687' width='218' height='205'>
+            <part name='0' x='709' y='285'/>
+            <part name='1' x='751' y='200'/>
+            <part name='2' x='787' y='186'/>
+            <part name='3' x='817' y='191'/>
+            <part name='4' x='848' y='217'/>
+        </box>
+    </image>
+    <image file='leftt17.png'>
+        <box top='212' left='737' width='207' height='199'>
+            <part name='0' x='751' y='343'/>
+            <part name='1' x='785' y='251'/>
+            <part name='2' x='829' y='231'/>
+            <part name='3' x='857' y='235'/>
+            <part name='4' x='899' y='259'/>
+        </box>
+    </image>
+    <image file='leftt18.png'>
+        <box top='142' left='663' width='322' height='293'>
+            <part name='0' x='690' y='336'/>
+            <part name='1' x='743' y='203'/>
+            <part name='2' x='807' y='174'/>
+            <part name='3' x='850' y='178'/>
+            <part name='4' x='917' y='216'/>
+        </box>
+    </image>
+    <image file='leftt2.png'>
+        <box top='111' left='653' width='190' height='177'>
+            <part name='0' x='678' y='223'/>
+            <part name='1' x='725' y='143'/>
+            <part name='2' x='764' y='135'/>
+            <part name='3' x='791' y='145'/>
+            <part name='4' x='820' y='170'/>
+        </box>
+    </image>
+    <image file='leftt3.png'>
+        <box top='99' left='547' width='273' height='261'>
+            <part name='0' x='579' y='268'/>
+            <part name='1' x='618' y='144'/>
+            <part name='2' x='670' y='120'/>
+            <part name='3' x='712' y='127'/>
+            <part name='4' x='767' y='164'/>
+        </box>
+    </image>
+    <image file='leftt4.png'>
+        <box top='106' left='600' width='261' height='247'>
+            <part name='0' x='630' y='259'/>
+            <part name='1' x='681' y='155'/>
+            <part name='2' x='732' y='131'/>
+            <part name='3' x='770' y='140'/>
+            <part name='4' x='819' y='176'/>
+        </box>
+    </image>
+  <image file='hand1.png'>
+    <box top='40' left='498' width='228' height='218'>
+      <part name='0' x='703' y='207'/>
+      <part name='1' x='676' y='85'/>
+      <part name='2' x='637' y='58'/>
+      <part name='3' x='595' y='58'/>
+      <part name='4' x='531' y='87'/>
+    </box>
+  </image>
+  <image file='hand10.png'>
+    <box top='187' left='102' width='243' height='227'>
+      <part name='0' x='323' y='261'/>
+      <part name='1' x='202' y='225'/>
+      <part name='2' x='141' y='255'/>
+      <part name='3' x='130' y='282'/>
+      <part name='4' x='117' y='345'/>
+    </box>
+  </image>
+  <image file='hand11.png'>
+    <box top='77' left='709' width='226' height='224'>
+      <part name='0' x='901' y='249'/>
+      <part name='1' x='903' y='137'/>
+      <part name='2' x='848' y='94'/>
+      <part name='3' x='805' y='97'/>
+      <part name='4' x='748' y='118'/>
+    </box>
+  </image>
+  <image file='hand12.png'>
+    <box top='80' left='239' width='212' height='198'>
+      <part name='0' x='428' y='203'/>
+      <part name='1' x='374' y='111'/>
+      <part name='2' x='326' y='95'/>
+      <part name='3' x='296' y='106'/>
+      <part name='4' x='255' y='138'/>
+    </box>
+  </image>
+  <image file='hand13.png'>
+    <box top='190' left='126' width='222' height='207'>
+      <part name='0' x='333' y='322'/>
+      <part name='1' x='265' y='227'/>
+      <part name='2' x='217' y='214'/>
+      <part name='3' x='190' y='226'/>
+      <part name='4' x='140' y='261'/>
+    </box>
+  </image>
+  <image file='hand14.png'>
+    <box top='98' left='696' width='248' height='240'>
+      <part name='0' x='925' y='290'/>
+      <part name='1' x='913' y='154'/>
+      <part name='2' x='870' y='120'/>
+      <part name='3' x='816' y='108'/>
+      <part name='4' x='754' y='134'/>
+    </box>
+  </image>
+  <image file='hand15.png'>
+    <box top='144' left='255' width='197' height='188'>
+      <part name='0' x='434' y='263'/>
+      <part name='1' x='380' y='173'/>
+      <part name='2' x='343' y='157'/>
+      <part name='3' x='321' y='167'/>
+      <part name='4' x='275' y='198'/>
+    </box>
+  </image>
+  <image file='hand2.png'>
+    <box top='172' left='137' width='217' height='201'>
+      <part name='0' x='334' y='291'/>
+      <part name='1' x='267' y='205'/>
+      <part name='2' x='228' y='191'/>
+      <part name='3' x='202' y='206'/>
+      <part name='4' x='150' y='244'/>
+    </box>
+  </image>
+  <image file='hand3.png'>
+    <box top='67' left='748' width='224' height='220'>
+      <part name='0' x='950' y='242'/>
+      <part name='1' x='936' y='120'/>
+      <part name='2' x='883' y='82'/>
+      <part name='3' x='851' y='84'/>
+      <part name='4' x='798' y='104'/>
+    </box>
+  </image>
+  <image file='hand4.png'>
+    <box top='39' left='120' width='227' height='204'>
+      <part name='0' x='320' y='160'/>
+      <part name='1' x='250' y='72'/>
+      <part name='2' x='206' y='60'/>
+      <part name='3' x='175' y='79'/>
+      <part name='4' x='136' y='118'/>
+    </box>
+  </image>
+  <image file='hand5.png'>
+    <box top='32' left='700' width='218' height='209'>
+      <part name='0' x='865' y='206'/>
+      <part name='1' x='885' y='94'/>
+      <part name='2' x='855' y='49'/>
+      <part name='3' x='825' y='43'/>
+      <part name='4' x='774' y='50'/>
+    </box>
+  </image>
+  <image file='hand6.png'>
+    <box top='63' left='763' width='230' height='217'>
+      <part name='0' x='967' y='217'/>
+      <part name='1' x='937' y='110'/>
+      <part name='2' x='875' y='91'/>
+      <part name='3' x='835' y='90'/>
+      <part name='4' x='786' y='110'/>
+    </box>
+  </image>
+  <image file='hand7.png'>
+    <box top='286' left='230' width='212' height='198'>
+      <part name='0' x='421' y='388'/>
+      <part name='1' x='379' y='314'/>
+      <part name='2' x='347' y='305'/>
+      <part name='3' x='321' y='320'/>
+      <part name='4' x='258' y='355'/>
+    </box>
+  </image>
+  <image file='hand8.png'>
+    <box top='73' left='409' width='250' height='237'>
+      <part name='0' x='637' y='229'/>
+      <part name='1' x='589' y='116'/>
+      <part name='2' x='539' y='92'/>
+      <part name='3' x='508' y='100'/>
+      <part name='4' x='439' y='135'/>
+    </box>
+  </image>
+  <image file='hand9.png'>
+    <box top='40' left='610' width='255' height='252'>
+      <part name='0' x='836' y='219'/>
+      <part name='1' x='808' y='99'/>
+      <part name='2' x='758' y='65'/>
+      <part name='3' x='720' y='68'/>
+      <part name='4' x='651' y='93'/>
+    </box>
+  </image>
+  <image file='handy1.png'>
+    <box top='60' left='351' width='243' height='232'>
+      <part name='0' x='570' y='234'/>
+      <part name='1' x='540' y='111'/>
+      <part name='2' x='483' y='83'/>
+      <part name='3' x='458' y='88'/>
+      <part name='4' x='397' y='113'/>
+    </box>
+  </image>
+  <image file='handy10.png'>
+    <box top='194' left='203' width='227' height='222'>
+      <part name='0' x='411' y='345'/>
+      <part name='1' x='363' y='235'/>
+      <part name='2' x='323' y='211'/>
+      <part name='3' x='295' y='221'/>
+      <part name='4' x='237' y='244'/>
+    </box>
+  </image>
+  <image file='handy7.png'>
+    <box top='171' left='165' width='223' height='212'>
+      <part name='0' x='370' y='313'/>
+      <part name='1' x='320' y='210'/>
+      <part name='2' x='279' y='189'/>
+      <part name='3' x='252' y='198'/>
+      <part name='4' x='199' y='224'/>
+    </box>
+  </image>
+  <image file='handy8.png'>
+    <box top='297' left='114' width='227' height='220'>
+      <part name='0' x='324' y='423'/>
+      <part name='1' x='286' y='334'/>
+      <part name='2' x='242' y='315'/>
+      <part name='3' x='212' y='324'/>
+      <part name='4' x='160' y='352'/>
+    </box>
+  </image>
+  <image file='handy9.png'>
+    <box top='300' left='117' width='221' height='208'>
+      <part name='0' x='321' y='427'/>
+      <part name='1' x='283' y='333'/>
+      <part name='2' x='238' y='310'/>
+      <part name='3' x='208' y='320'/>
+      <part name='4' x='153' y='355'/>
+    </box>
+  </image>
+  <image file='handyy2.png'>
+    <box top='205' left='166' width='263' height='243'>
+      <part name='0' x='396' y='364'/>
+      <part name='1' x='341' y='250'/>
+      <part name='2' x='290' y='224'/>
+      <part name='3' x='260' y='238'/>
+      <part name='4' x='194' y='277'/>
+    </box>
+  </image>
+  <image file='handyy3.png'>
+    <box top='165' left='212' width='252' height='245'>
+      <part name='0' x='435' y='344'/>
+      <part name='1' x='401' y='220'/>
+      <part name='2' x='357' y='190'/>
+      <part name='3' x='325' y='197'/>
+      <part name='4' x='258' y='221'/>
+    </box>
+  </image>
+  <image file='handyy4.png'>
+    <box top='179' left='94' width='293' height='287'>
+      <part name='0' x='352' y='386'/>
+      <part name='1' x='320' y='239'/>
+      <part name='2' x='271' y='203'/>
+      <part name='3' x='221' y='210'/>
+      <part name='4' x='144' y='238'/>
+    </box>
+  </image>
+  <image file='right1.png'>
+    <box top='287' left='214' width='275' height='253'>
+      <part name='0' x='452' y='427'/>
+      <part name='1' x='410' y='325'/>
+      <part name='2' x='362' y='304'/>
+      <part name='3' x='331' y='322'/>
+      <part name='4' x='276' y='355'/>
+    </box>
+  </image>
+  <image file='right10.png'>
+    <box top='207' left='158' width='223' height='199'>
+      <part name='0' x='354' y='337'/>
+      <part name='1' x='305' y='244'/>
+      <part name='2' x='262' y='225'/>
+      <part name='3' x='235' y='238'/>
+      <part name='4' x='195' y='267'/>
+    </box>
+  </image>
+  <image file='right11.png'>
+    <box top='70' left='433' width='267' height='252'>
+      <part name='0' x='662' y='237'/>
+      <part name='1' x='626' y='120'/>
+      <part name='2' x='569' y='90'/>
+      <part name='3' x='527' y='103'/>
+      <part name='4' x='477' y='141'/>
+    </box>
+  </image>
+  <image file='right2.png'>
+    <box top='158' left='228' width='273' height='257'>
+      <part name='0' x='473' y='301'/>
+      <part name='1' x='408' y='197'/>
+      <part name='2' x='355' y='175'/>
+      <part name='3' x='323' y='192'/>
+      <part name='4' x='269' y='234'/>
+    </box>
+  </image>
+  <image file='right3.png'>
+    <box top='207' left='173' width='295' height='281'>
+      <part name='0' x='448' y='383'/>
+      <part name='1' x='389' y='254'/>
+      <part name='2' x='324' y='229'/>
+      <part name='3' x='288' y='245'/>
+      <part name='4' x='222' y='282'/>
+    </box>
+  </image>
+</images>
+</dataset>
