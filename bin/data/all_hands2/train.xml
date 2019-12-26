@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+    <image file='leftt6.png'>
+        <box top='110' left='334' width='115' height='115'/>
+    </image>
+    <image file='leftt7.png'>
+        <box top='98' left='326' width='94' height='94'/>
+    </image>
+    <image file='leftt8.png'>
+        <box top='124' left='321' width='95' height='95'/>
+    </image>
+    <image file='leftt9.png'>
+        <box top='156' left='296' width='93' height='93'/>
+    </image>
+    <image file='hand1.png'>
+        <box top='18' left='247' width='119' height='119'/>
+    </image>
+    <image file='hand10.png'>
+        <box top='92' left='49' width='120' height='120'/>
+    </image>
+    <image file='hand11.png'>
+        <box top='39' left='351' width='115' height='115'/>
+    </image>
+    <image file='hand12.png'>
+        <box top='39' left='119' width='106' height='106'/>
+    </image>
+    <image file='hand13.png'>
+        <box top='95' left='63' width='112' height='112'/>
+    </image>
+    <image file='hand14.png'>
+        <box top='46' left='350' width='126' height='126'/>
+    </image>
+    <image file='hand15.png'>
+        <box top='72' left='130' width='99' height='99'/>
+    </image>
+    <image file='hand2.png'>
+        <box top='87' left='71' width='108' height='108'/>
+    </image>
+    <image file='hand3.png'>
+        <box top='33' left='377' width='109' height='109'/>
+    </image>
+    <image file='hand4.png'>
+        <box top='17' left='60' width='114' height='114'/>
+    </image>
+    <image file='hand5.png'>
+        <box top='13' left='350' width='106' height='106'/>
+    </image>
+    <image file='hand6.png'>
+        <box top='34' left='381' width='111' height='111'/>
+    </image>
+    <image file='hand7.png'>
+        <box top='140' left='123' width='98' height='98'/>
+    </image>
+    <image file='hand8.png'>
+        <box top='37' left='201' width='129' height='129'/>
+    </image>
+    <image file='hand9.png'>
+        <box top='23' left='309' width='123' height='123'/>
+    </image>
+    <image file='handy1.png'>
+        <box top='30' left='184' width='120' height='120'/>
+    </image>
+    <image file='handy10.png'>
+        <box top='99' left='104' width='112' height='112'/>
+    </image>
+    <image file='handy2.png'>
+        <box top='79' left='357' width='133' height='133'/>
+    </image>
+    <image file='handy3.png'>
+        <box top='80' left='284' width='112' height='112'/>
+    </image>
+    <image file='handy4.png'>
+        <box top='35' left='342' width='127' height='127'/>
+    </image>
+    <image file='handy5.png'>
+        <box top='53' left='318' width='125' height='125'/>
+    </image>
+    <image file='handy6.png'>
+        <box top='129' left='305' width='100' height='100'/>
+    </image>
+    <image file='handy7.png'>
+        <box top='86' left='85' width='110' height='110'/>
+    </image>
+    <image file='handy8.png'>
+        <box top='147' left='60' width='114' height='114'/>
+    </image>
+    <image file='handy9.png'>
+        <box top='149' left='60' width='110' height='110'/>
+    </image>
+    <image file='handyy1.png'>
+        <box top='24' left='344' width='139' height='139'/>
+    </image>
+    <image file='handyy2.png'>
+        <box top='103' left='85' width='128' height='128'/>
+    </image>
+    <image file='handyy3.png'>
+        <box top='84' left='108' width='125' height='125'/>
+    </image>
+    <image file='handyy4.png'>
+        <box top='88' left='52' width='130' height='130'/>
+    </image>
+    <image file='left1.png'>
+        <box top='91' left='328' width='129' height='129'/>
+    </image>
+    <image file='left10.png'>
+        <box top='74' left='262' width='111' height='111'/>
+    </image>
+    <image file='left11.png'>
+        <box top='51' left='322' width='120' height='120'/>
+    </image>
+    <image file='left2.png'>
+        <box top='91' left='298' width='115' height='115'/>
+    </image>
+    <image file='left3.png'>
+        <box top='114' left='369' width='130' height='130'/>
+    </image>
+    <image file='left4.png'>
+        <box top='43' left='401' width='135' height='135'/>
+    </image>
+    <image file='left5.png'>
+        <box top='60' left='306' width='122' height='122'/>
+    </image>
+    <image file='left6.png'>
+        <box top='58' left='303' width='119' height='119'/>
+    </image>
+    <image file='left7.png'>
+        <box top='45' left='244' width='99' height='99'/>
+    </image>
+    <image file='left8.png'>
+        <box top='106' left='328' width='117' height='117'/>
+    </image>
+    <image file='left9.png'>
+        <box top='72' left='318' width='91' height='91'/>
+    </image>
+    <image file='leftt1.png'>
+        <box top='58' left='334' width='107' height='107'/>
+    </image>
+    <image file='leftt10.png'>
+        <box top='107' left='262' width='140' height='140'/>
+    </image>
+    <image file='leftt11.png'>
+        <box top='107' left='279' width='126' height='126'/>
+    </image>
+    <image file='leftt12.png'>
+        <box top='63' left='341' width='109' height='109'/>
+    </image>
+    <image file='leftt13.png'>
+        <box top='19' left='297' width='156' height='156'/>
+    </image>
+    <image file='leftt14.png'>
+        <box top='93' left='396' width='107' height='107'/>
+    </image>
+    <image file='leftt15.png'>
+        <box top='110' left='380' width='105' height='105'/>
+    </image>
+    <image file='leftt16.png'>
+        <box top='81' left='344' width='105' height='105'/>
+    </image>
+    <image file='leftt17.png'>
+        <box top='108' left='366' width='102' height='102'/>
+    </image>
+    <image file='leftt18.png'>
+        <box top='74' left='332' width='147' height='147'/>
+    </image>
+    <image file='right5.png'>
+        <box top='94' left='195' width='101' height='101'/>
+    </image>
+    <image file='right6.png'>
+        <box top='75' left='156' width='105' height='105'/>
+    </image>
+    <image file='right7.png'>
+        <box top='94' left='100' width='115' height='115'/>
+    </image>
+    <image file='right8.png'>
+        <box top='84' left='110' width='117' height='117'/>
+    </image>
+    <image file='right9.png'>
+        <box top='121' left='101' width='94' height='94'/>
+    </image>
+    <image file='rightright1.png'>
+        <box top='81' left='140' width='118' height='118'/>
+    </image>
+    <image file='rightright10.png'>
+        <box top='53' left='99' width='109' height='109'/>
+    </image>
+    <image file='rightright11.png'>
+        <box top='78' left='113' width='110' height='110'/>
+    </image>
+    <image file='rightright12.png'>
+        <box top='56' left='104' width='146' height='146'/>
+    </image>
+    <image file='rightright2.png'>
+        <box top='95' left='128' width='114' height='114'/>
+    </image>
+    <image file='rightright20.png'>
+        <box top='87' left='139' width='92' height='92'/>
+    </image>
+    <image file='rightright21.png'>
+        <box top='83' left='165' width='100' height='100'/>
+    </image>
+    <image file='rightright22.png'>
+        <box top='77' left='158' width='103' height='103'/>
+    </image>
+    <image file='rightright23.png'>
+        <box top='189' left='140' width='117' height='117'/>
+    </image>
+    <image file='rightright24.png'>
+        <box top='167' left='159' width='107' height='108'/>
+    </image>
+    <image file='rightright25.png'>
+        <box top='61' left='101' width='120' height='120'/>
+    </image>
+    <image file='rightright26.png'>
+        <box top='126' left='153' width='114' height='114'/>
+    </image>
+    <image file='rightright27.png'>
+        <box top='167' left='147' width='128' height='128'/>
+    </image>
+    <image file='rightright28.png'>
+        <box top='181' left='149' width='130' height='130'/>
+    </image>
+    <image file='rightright29.png'>
+        <box top='173' left='134' width='117' height='117'/>
+    </image>
+    <image file='rightright3.png'>
+        <box top='45' left='59' width='135' height='135'/>
+    </image>
+    <image file='rightright30.png'>
+        <box top='106' left='162' width='122' height='122'/>
+    </image>
+    <image file='rightright31.png'>
+        <box top='98' left='106' width='124' height='124'/>
+    </image>
+    <image file='rightright32.png'>
+        <box top='108' left='103' width='129' height='129'/>
+    </image>
+    <image file='rightright33.png'>
+        <box top='69' left='184' width='101' height='101'/>
+    </image>
+    <image file='rightright34.png'>
+        <box top='62' left='168' width='132' height='132'/>
+    </image>
+    <image file='rightright35.png'>
+        <box top='78' left='122' width='102' height='102'/>
+    </image>
+    <image file='rightright36.png'>
+        <box top='62' left='127' width='108' height='108'/>
+    </image>
+    <image file='rightright37.png'>
+        <box top='70' left='160' width='96' height='96'/>
+    </image>
+    <image file='rightright38.png'>
+        <box top='87' left='171' width='87' height='87'/>
+    </image>
+    <image file='rightright39.png'>
+        <box top='90' left='182' width='85' height='85'/>
+    </image>
+    <image file='rightright4.png'>
+        <box top='76' left='61' width='115' height='115'/>
+    </image>
+    <image file='rightright40.png'>
+        <box top='170' left='174' width='125' height='119'/>
+    </image>
+    <image file='rightright41.png'>
+        <box top='186' left='136' width='136' height='136'/>
+    </image>
+    <image file='rightright42.png'>
+        <box top='148' left='171' width='120' height='120'/>
+    </image>
+    <image file='rightright45.png'>
+        <box top='79' left='257' width='89' height='89'/>
+    </image>
+</images>
+</dataset>
