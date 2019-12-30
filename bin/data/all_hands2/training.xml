@@ -35,7 +35,7 @@
             <box top='12' left='46' width='96' height='96'/>
         </image>
         <image file='hand5.png'>
-            <box top='8' left='76' width='93' height='93'/>
+            <box top='2' left='275' width='102' height='102'/>
         </image>
         <image file='hand6.png'>
             <box top='23' left='302' width='96' height='96'/>
