@@ -113,8 +113,8 @@ int main(int argc, char** argv)
         // training dataset.  Again, this is obviously optional but is useful in
         // many object detection tasks.
         add_image_left_right_flips(images_train, face_boxes_train);
-        //if you want to add slight rotations the training images uncomment this (good for faces)
-        //add_image_rotations(linspace(-20,20,3)*dlib::pi/90.0, images_train, face_boxes_train);
+        add_image_left_right_flips(images_test, face_boxes_test);
+
         cout << "num training images: " << images_train.size() << endl;
         cout << "num testing images:  " << images_test.size() << endl;
         
@@ -127,6 +127,7 @@ int main(int argc, char** argv)
         // 5/6.  Recall that HOG detectors work by creating an image pyramid and
         // then running the detector over each pyramid level in a sliding window
         // fashion.
+        
         typedef scan_fhog_pyramid<pyramid_down<6> > image_scanner_type;
         image_scanner_type scanner;
         // The sliding window detector will be 80 pixels wide and 80 pixels tall.
@@ -134,13 +135,14 @@ int main(int argc, char** argv)
         structural_object_detection_trainer<image_scanner_type> trainer(scanner);
         // Set this to the number of processing cores on your machine.
         trainer.set_num_threads(4);
+//        scanner.set_nuclear_norm_regularization_strength(0.01);
         // The trainer is a kind of support vector machine and therefore has the usual SVM
         // C parameter.  In general, a bigger C encourages it to fit the training data
         // better but might lead to overfitting.  You must find the best C value
         // empirically by checking how well the trained detector works on a test set of
         // images you haven't trained on.  Don't just leave the value set at 1.  Try a few
         // different C values and see what works best for your data.
-        trainer.set_c(10);
+        trainer.set_c(1);
         // We can tell the trainer to print it's progress to the console if we want.
         trainer.be_verbose();
         // The trainer will run until the "risk gap" is less than 0.01.  Smaller values
@@ -149,7 +151,6 @@ int main(int argc, char** argv)
         // plenty accurate.  Also, when in verbose mode the risk gap is printed on each
         // iteration so you can see how close it is to finishing the training.
         trainer.set_epsilon(0.01);
-        
         
         // Now we run the trainer.  For this example, it should take on the order of 10
         // seconds to train.
